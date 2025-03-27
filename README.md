@@ -26,3 +26,18 @@ It includes:
 4. Integrate the VQF library from [https://github.com/dlaidig/vqf](https://github.com/dlaidig/vqf) into your project.
 5. Compile and upload the firmware to your ESP12e.
 6. (Optional) Uncomment the temperature reporting lines in `main.cpp` to transmit raw temperature data to the server.
+
+
+``` Server/
+├── data_processor.h
+├── data_processor.cpp
+├── changelog.md
+└── README.md ```
+
+
+``` ESP/
+├── imu_axis_correction.h
+├── imu_axis_correction.cpp
+├── main.cpp
+├── changelog.md
+└── README.md ```
